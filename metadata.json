@@ -1,0 +1,6 @@
+{
+  "name": "Dominion Technical",
+  "description": "Professional corporate website for D&E Dominion Technical Limited, providing Cathodic Protection and Corrosion Control engineering solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
