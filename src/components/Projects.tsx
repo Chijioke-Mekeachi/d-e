@@ -116,23 +116,6 @@ export default function Projects() {
                     ID: {cs.id.toUpperCase()}
                   </span>
                 </div>
-
-                <div className="absolute bottom-4 left-4 right-4 bg-slate-950/95 p-4 border-l-4 border-amber-500 text-white rounded">
-                  <div className="flex items-center gap-2">
-                    <TrendingUp className="h-4 w-4 text-amber-500" />
-                    <span className="font-mono text-xs font-extrabold tracking-wider uppercase">Key Metrics Achieved</span>
-                  </div>
-                  <div className="grid grid-cols-2 gap-2 mt-2 pt-2 border-t border-slate-800 text-xs">
-                    <div>
-                      <span className="text-[10px] text-slate-400 block font-sans">Asset Life Expansion</span>
-                      <span className="font-black text-amber-400 font-mono text-sm">{cs.assetLifeExtension}</span>
-                    </div>
-                    <div>
-                      <span className="text-[10px] text-slate-400 block font-sans">Protection Index</span>
-                      <span className="font-black text-white font-mono text-sm">{cs.efficiencyMTR}</span>
-                    </div>
-                  </div>
-                </div>
               </div>
 
               {/* Text specifications details Right Side */}

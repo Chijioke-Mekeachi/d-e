@@ -50,7 +50,7 @@ export const PRODUCTS: Product[] = [
       "Deep offshore marine production terminals",
       "Urban municipal water mains and cooling towers"
     ],
-    image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=600",
+    image: "/Transformer installation8.jpeg",
     datasheetAvailable: true
   },
   {
@@ -76,7 +76,7 @@ export const PRODUCTS: Product[] = [
       "Consolidating multiple structure test point cables securely",
       "Pipeline cross-bonding and stray current interference mitigation"
     ],
-    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=600",
+    image: "/flowline & gll.jpeg",
     datasheetAvailable: true
   },
   {
@@ -102,7 +102,7 @@ export const PRODUCTS: Product[] = [
       "Well casings, gas distribution networks, and industrial plant pipes",
       "Hot-spot protection along old corroded bare pipe sections"
     ],
-    image: "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80&w=600",
+    image: "/IMG-20260724-WA0183.jpg",
     datasheetAvailable: true
   },
   {
@@ -128,7 +128,7 @@ export const PRODUCTS: Product[] = [
       "Condenser water boxes and marine cooling seawater intakes",
       "Concrete rebar cathodization in bridge decks and coastal piers"
     ],
-    image: "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?auto=format&fit=crop&q=80&w=600",
+    image: "/IMG-20260724-WA0185.jpg",
     datasheetAvailable: true
   },
   {
@@ -153,7 +153,7 @@ export const PRODUCTS: Product[] = [
       "Undersea flowline pipelines passing through low-resistivity saline clay",
       "Internal lining protection of crude water separation vessels"
     ],
-    image: "https://images.unsplash.com/photo-1534224039826-c7a0dea0e66a?auto=format&fit=crop&q=80&w=600",
+    image: "/IMG-20260724-WA0182.jpg",
     datasheetAvailable: true
   },
   {
@@ -179,7 +179,7 @@ export const PRODUCTS: Product[] = [
       "Negative return cable links to pipelines and storage tanks",
       "Inter-terminal signal lines for remote sensor tracking modules"
     ],
-    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=600",
+    image: "/flowline & gll.jpeg",
     datasheetAvailable: true
   },
   {
@@ -204,7 +204,7 @@ export const PRODUCTS: Product[] = [
       "Separating offshore platforms from submerged submarine pipeline risers",
       "Dissimilar metal flange joints (e.g., carbon steel to stainless steel)"
     ],
-    image: "https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?auto=format&fit=crop&q=80&w=600",
+    image: "/image 19.jpeg",
     datasheetAvailable: true
   }
 ];
@@ -288,7 +288,7 @@ export const SERVICES: Service[] = [
       "Gas Storage Facility Managers",
       "Undersea Line Operators"
     ],
-    image: "https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?auto=format&fit=crop&q=80&w=800"
+    image: "/image 20.jpeg"
   }
 ];
 
@@ -348,7 +348,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: "Senior Field Integrity Engineer",
     qualifications: ["B.Eng. Materials Science", "AMPP Level 3 CP Commissioning Professional", "10+ Years Experience"],
     bio: "Engr. Briggs directs the technical survey operations, specializing in GPS-synchronized Close Interval Surveys (CIS), Direct Current Voltage Gradient (DCVG), and soil resistivity profile modeling using advanced diagnostic software.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400"
+    image: "/IMG-20260723-WA0134.jpg"
   }
 ];
 

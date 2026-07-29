@@ -107,12 +107,8 @@ export function initLocalStorage() {
   if (!localStorage.getItem(STORAGE_KEYS.CONTACTS)) {
     localStorage.setItem(STORAGE_KEYS.CONTACTS, JSON.stringify(DEFAULT_CONTACTS));
   }
-  if (!localStorage.getItem(STORAGE_KEYS.SERVICES)) {
-    localStorage.setItem(STORAGE_KEYS.SERVICES, JSON.stringify(SERVICES));
-  }
-  if (!localStorage.getItem(STORAGE_KEYS.PROJECTS)) {
-    localStorage.setItem(STORAGE_KEYS.PROJECTS, JSON.stringify(CASE_STUDIES));
-  }
+  localStorage.setItem(STORAGE_KEYS.SERVICES, JSON.stringify(SERVICES));
+  localStorage.setItem(STORAGE_KEYS.PROJECTS, JSON.stringify(CASE_STUDIES));
 }
 
 // Ensure database is initialized
