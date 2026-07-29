@@ -268,7 +268,7 @@ export const SERVICES: Service[] = [
       "Industrial Plant Facilities Directors",
       "Offshore Rig Operators"
     ],
-    image: "/public/work1.jpeg"
+    image: "/work1.jpeg"
   },
   {
     id: "serv-repair-rehab",
@@ -302,7 +302,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     results: "Re-polarized the entire 45km pipeline within 48 hours to a stable, safe potential of -1050mV CSE. Coating defect spots were tracked via DCVG and addressed. The asset's operational life was extended by an estimated 35 years.",
     assetLifeExtension: "35 Years",
     efficiencyMTR: "98.5% Polarization Up-time",
-    image: "https://images.unsplash.com/photo-1563906267088-b029e7101114?auto=format&fit=crop&q=80&w=600"
+    image: "/work1.jpeg"
   },
   {
     id: "case-storage-tanks",
@@ -313,7 +313,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     results: "Provided absolute, uniform current distribution across all bottom plates. Standardized the potential field to a safe -950mV vs copper/copper-sulfate reference cells, eliminating sand-bed hot-spot currents.",
     assetLifeExtension: "40+ Years Protected",
     efficiencyMTR: "100% Rust Halt Rate",
-    image: "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&q=80&w=600"
+    image: "/work2.jpeg"
   },
   {
     id: "case-marine-jetty",
@@ -324,7 +324,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     results: "Jetty pile oxidation halted entirely. High precision silver/silver-chloride reference surveys confirmed absolute polarization compliance of all underwater steel piles. Annual metal loss rate dropped to zero.",
     assetLifeExtension: "25 Years Extension",
     efficiencyMTR: "0.0 mm/year metal loss",
-    image: "https://images.unsplash.com/photo-1502481851512-e9e2529beff9?auto=format&fit=crop&q=80&w=600"
+    image: "/reading.jpeg"
   }
 ];
 
@@ -334,14 +334,14 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: "Managing Director / Principal CP Specialist",
     qualifications: ["PhD Electrochemistry", "AMPP Fellow", "NACE Level 4 CP Specialist #34510", "25+ Years Experience"],
     bio: "Dr. Egbu is an internationally recognized authority in maritime & terrestrial corrosion science. He has authored over 15 papers on deepwell MMO groundbed optimization and leads Dominion's primary design engineering operations.",
-    image: "/public/Founder.jpg"
+    image: "/Founder.jpg"
   },
   {
     name: "Engr. Dave Osei",
     role: "Technical Director / Lead ICCP Engineer",
     qualifications: ["M.Sc. Pipeline Integrity", "NACE Level 4 CP Specialist", "COREN Certified Engineer", "18+ Years Experience"],
     bio: "Engr. Osei oversees all major field installations. He specializes in designing intelligent automated potential-controlled Transformer Rectifiers and has managed cathodic installations for thousands of kilometers of gas pipelines.",
-    image: "/public/CTO.jpg"
+    image: "/CTO.jpg"
   },
   {
     name: "Engr. Clara Briggs",

@@ -34,8 +34,8 @@ export default function Navbar({ activeTab, setActiveTab }: NavbarProps) {
             onClick={() => handleNavClick("home")}
             id="nav-logo"
           >
-            <div className="bg-amber-500 text-slate-950 p-1.5 xl:p-2 rounded-lg flex items-center justify-center shadow-lg border border-amber-400 shrink-0">
-              <Shield className="h-5 w-5 xl:h-6 xl:w-6 stroke-[2.5]" />
+            <div className="text-slate-950 p-1.5 xl:p-2 rounded-lg flex items-center justify-center shadow-lg shrink-0">
+              <img src="/logo D&E.png" alt="Logo" className="h-8 w-8 xl:h-10 xl:w-10" />
             </div>
             <div className="shrink-0">
               <div className="font-extrabold text-xs sm:text-sm xl:text-lg tracking-tight flex items-center gap-1 xl:gap-1.5 leading-none">
@@ -68,22 +68,6 @@ export default function Navbar({ activeTab, setActiveTab }: NavbarProps) {
 
           {/* CTAs */}
           <div className="hidden lg:flex items-center gap-2 xl:gap-3.5 shrink-0">
-            {/* Quote CTA */}
-            <button
-              onClick={() => {
-                setActiveTab("rfq");
-              }}
-              id="cta-rfq-top"
-              className={`flex items-center gap-1 px-2.5 py-1.5 xl:gap-1.5 xl:px-4 xl:py-2 text-[11px] xl:text-xs font-semibold rounded-lg tracking-wide shadow-md border transition-all duration-200 cursor-pointer active:scale-[0.97] shrink-0 whitespace-nowrap ${
-                activeTab === "rfq" 
-                  ? "bg-slate-700 text-amber-400 border-amber-500"
-                  : "bg-amber-500 text-slate-950 border-amber-400 hover:bg-amber-400 hover:border-amber-300"
-              }`}
-            >
-              <FileText className="h-3.5 w-3.5 shrink-0" />
-              <span className="hidden xl:inline">Request a Quote</span>
-              <span className="xl:hidden">Get Quote</span>
-            </button>
 
             {/* Quick Click-to-Call */}
             <a

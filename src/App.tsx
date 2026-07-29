@@ -6,7 +6,7 @@ import Products from "./components/Products";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import RFQForm from "./components/RFQForm";
+// import RFQForm from "./components/RFQForm";
 import EngineerChat from "./components/EngineerChat";
 import { Shield, Phone, Mail, MapPin, Award, ArrowUpRight, CheckCircle2 } from "lucide-react";
 
@@ -101,15 +101,6 @@ export default function App() {
           <Contact
             initialServiceInterest={rfqPreselected || "General Inquiry"}
             onFormSuccess={() => {
-              setRfqPreselected("");
-            }}
-          />
-        );
-      case "rfq":
-        return (
-          <RFQForm
-            preselectedProduct={rfqPreselected}
-            onRFQSuccess={() => {
               setRfqPreselected("");
             }}
           />
