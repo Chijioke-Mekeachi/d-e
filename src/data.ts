@@ -24,7 +24,7 @@ export const PRODUCTS: Product[] = [
       "Harbor sheet pile walls & wharf structures",
       "Industrial tank farms and processing plants"
     ],
-    image: "/Transformer installation.jpeg",
+    image: "/521538.jpg",
     datasheetAvailable: true
   },
   {
@@ -50,7 +50,7 @@ export const PRODUCTS: Product[] = [
       "Deep offshore marine production terminals",
       "Urban municipal water mains and cooling towers"
     ],
-    image: "/Transformer installation8.jpeg",
+    image: "/521842.jpg",
     datasheetAvailable: true
   },
   {
@@ -76,7 +76,7 @@ export const PRODUCTS: Product[] = [
       "Consolidating multiple structure test point cables securely",
       "Pipeline cross-bonding and stray current interference mitigation"
     ],
-    image: "/flowline & gll.jpeg",
+    image: "/circuit.jpg",
     datasheetAvailable: true
   },
   {
@@ -102,7 +102,7 @@ export const PRODUCTS: Product[] = [
       "Well casings, gas distribution networks, and industrial plant pipes",
       "Hot-spot protection along old corroded bare pipe sections"
     ],
-    image: "/IMG-20260724-WA0183.jpg",
+    image: "/521540.jpg",
     datasheetAvailable: true
   },
   {
@@ -128,7 +128,7 @@ export const PRODUCTS: Product[] = [
       "Condenser water boxes and marine cooling seawater intakes",
       "Concrete rebar cathodization in bridge decks and coastal piers"
     ],
-    image: "/IMG-20260724-WA0185.jpg",
+    image: "/521549.jpg",
     datasheetAvailable: true
   },
   {
@@ -153,7 +153,7 @@ export const PRODUCTS: Product[] = [
       "Undersea flowline pipelines passing through low-resistivity saline clay",
       "Internal lining protection of crude water separation vessels"
     ],
-    image: "/IMG-20260724-WA0182.jpg",
+    image: "/521547.jpg",
     datasheetAvailable: true
   },
   {
@@ -179,7 +179,7 @@ export const PRODUCTS: Product[] = [
       "Negative return cable links to pipelines and storage tanks",
       "Inter-terminal signal lines for remote sensor tracking modules"
     ],
-    image: "/flowline & gll.jpeg",
+    image: "/521546.jpg",
     datasheetAvailable: true
   },
   {
@@ -204,7 +204,7 @@ export const PRODUCTS: Product[] = [
       "Separating offshore platforms from submerged submarine pipeline risers",
       "Dissimilar metal flange joints (e.g., carbon steel to stainless steel)"
     ],
-    image: "/image 19.jpeg",
+    image: "/521544.jpg",
     datasheetAvailable: true
   }
 ];
