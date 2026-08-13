@@ -179,7 +179,7 @@ export default function Contact({ initialServiceInterest = "General Inquiry", on
                   <div>
                     <span className="font-bold text-slate-900 uppercase block tracking-wider">Direct Hotline Numbers</span>
                     <span className="text-slate-600 font-mono mt-0.5 block">
-                      <a href="tel:08064446220" className="hover:text-blue-600">08064446220</a> | <a href="tel:09023918123" className="hover:text-blue-600">09023918123</a>
+                      <a href="tel:+234 08064446220" className="hover:text-blue-600">+234 08064446220</a> | <a href="tel:+234 09023918123" className="hover:text-blue-600">+234 09023918123</a>
                     </span>
                     <span className="text-[10px] text-slate-400 font-sans block mt-0.5">Click directly on mobile to auto-dial emergency lines</span>
                   </div>
