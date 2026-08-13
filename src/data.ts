@@ -128,7 +128,7 @@ export const PRODUCTS: Product[] = [
       "Condenser water boxes and marine cooling seawater intakes",
       "Concrete rebar cathodization in bridge decks and coastal piers"
     ],
-    image: "/521549.jpg",
+    image: "/528289.jpg",
     datasheetAvailable: true
   },
   {
@@ -330,25 +330,25 @@ export const CASE_STUDIES: CaseStudy[] = [
 
 export const TEAM_MEMBERS: TeamMember[] = [
   {
-    name: "Dr. Kenneth Egbu",
+    name: "Daniel Ekpo",
     role: "Managing Director / Principal CP Specialist",
-    qualifications: ["PhD Electrochemistry", "AMPP Fellow", "NACE Level 4 CP Specialist #34510", "25+ Years Experience"],
-    bio: "Dr. Egbu is an internationally recognized authority in maritime & terrestrial corrosion science. He has authored over 15 papers on deepwell MMO groundbed optimization and leads Dominion's primary design engineering operations.",
+    qualifications: ["Electrical Technician", "Handle Wiring", "Cable Termination", "Electrical Connections", "Testing and Troubleshooting"],
+    bio: "Daniel Ekpo is an internationally recognized authority in maritime & terrestrial corrosion science. He has authored over 15 papers on deepwell MMO groundbed optimization and leads Dominion's primary design engineering operations.",
     image: "/Founder.jpg"
   },
   {
-    name: "Engr. Dave Osei",
+    name: "Engr. Titus Otunyo",
     role: "Technical Director / Lead ICCP Engineer",
-    qualifications: ["M.Sc. Pipeline Integrity", "NACE Level 4 CP Specialist", "COREN Certified Engineer", "18+ Years Experience"],
-    bio: "Engr. Osei oversees all major field installations. He specializes in designing intelligent automated potential-controlled Transformer Rectifiers and has managed cathodic installations for thousands of kilometers of gas pipelines.",
+    qualifications: ["Fabrication Technician", "Handling cutting", "welding", "drilling", "assembly and fabrication of equipment and structure"],
+    bio: "Engr. Otunyo oversees all major field installations. He specializes in designing intelligent automated potential-controlled Transformer Rectifiers and has managed cathodic installations for thousands of kilometers of gas pipelines.",
     image: "/CTO.jpg"
   },
   {
-    name: "Engr. Clara Briggs",
+    name: "Engr. Clatus Ovat",
     role: "Senior Field Integrity Engineer",
-    qualifications: ["B.Eng. Materials Science", "AMPP Level 3 CP Commissioning Professional", "10+ Years Experience"],
-    bio: "Engr. Briggs directs the technical survey operations, specializing in GPS-synchronized Close Interval Surveys (CIS), Direct Current Voltage Gradient (DCVG), and soil resistivity profile modeling using advanced diagnostic software.",
-    image: "/IMG-20260723-WA0134.jpg"
+    qualifications: ["Field Engineer", "Handle site operation","Technical Inspection", "Installation","testing","Troubleshooting","supervision and commissioning of project"],
+    bio: "Engr. Ovat directs the technical survey operations, specializing in GPS-synchronized Close Interval Surveys (CIS), Direct Current Voltage Gradient (DCVG), and soil resistivity profile modeling using advanced diagnostic software.",
+    image: "/528266.jpg"
   }
 ];
 
