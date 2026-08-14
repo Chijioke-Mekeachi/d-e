@@ -295,7 +295,7 @@ export const SERVICES: Service[] = [
 export const CASE_STUDIES: CaseStudy[] = [
   {
     id: "case-pipeline-45km",
-    clientName: "Midstream Gas Pipeline Operator",
+    clientName: "Installation of Testpost",
     industry: "Oil & Gas",
     challenge: "A vital 45km 24-inch gas transmission pipeline was showing severe active corrosion holidays. Existing sacrificial magnesium anodes had entirely depleted, leading to potential values dropping below the safety limit of -850mV. The operator faced imminent regulatory shutdown risks or catastrophic failure.",
     solution: "Dominion Technical Limited engineered and installed a comprehensive Impressed Current Cathodic Protection (ICCP) system. We drilled four 120-meter deepwell anode groundbeds containing MMO tubular anode strings, installed three 80A/48V oil-cooled locally assembled automatic potential rectifiers, and integrated 15 active monitoring test station points.",
@@ -306,7 +306,7 @@ export const CASE_STUDIES: CaseStudy[] = [
   },
   {
     id: "case-storage-tanks",
-    clientName: "National Bulk Fuel Storage Depot",
+    clientName: "Supply/installation of air-cooled transformer rectifier",
     industry: "Industrial",
     challenge: "Twelve massive above-ground hydrocarbon storage tank bottoms (each 45m diameter) were experiencing aggressive undersoil galvanic corrosion. High local water table soil conductivity accelerated tank floor pitting, prompting thickness alarms during ultrasound audits.",
     solution: "We designed a custom ICCP sand-bed system. Prior to tank plate renewals, we installed MMO ribbon anode grids configured in concentric rings directly beneath the tank floor, wired through custom IP66 positive junction boxes to oil-cooled automated transformer rectifiers with reference cell feedback loops.",
@@ -317,7 +317,7 @@ export const CASE_STUDIES: CaseStudy[] = [
   },
   {
     id: "case-marine-jetty",
-    clientName: "Deepsea Liquid Cargo Terminal",
+    clientName: "Still Installation",
     industry: "Marine",
     challenge: "High-saline tidal flow combined with mechanical wave scraping was wearing away the structural steel foundation piles of a critical marine jetty, exposing the terminal structure to heavy structural failure risks.",
     solution: "Dominion Technical mounted high-grade, weld-on Mil-Spec Zinc sacrificial anodes directly to the underwater pile spans. In the tidal splash zone, we utilized long-life MMO mesh anodes wrapped in fiberglass protective jackets to shield vulnerable high-oxygen steel interfaces.",
