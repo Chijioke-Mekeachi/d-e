@@ -170,7 +170,7 @@ export default function Contact({ initialServiceInterest = "General Inquiry", on
                   <MapPin className="h-5 w-5 text-blue-600 shrink-0" />
                   <div>
                     <span className="font-bold text-slate-900 uppercase block tracking-wider">Facility Address</span>
-                    <span className="text-slate-600 font-sans mt-0.5 block">17 Unity Drive, Satellite Village, Oyigbo Rivers State</span>
+                    <span className="text-slate-600 font-sans mt-0.5 block">No. 17 Unity Drive, Satellite Village, Oyigbo, Rivers State</span>
                   </div>
                 </div>
 

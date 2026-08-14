@@ -6,8 +6,8 @@ import Products from "./components/Products";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-// import RFQForm from "./components/RFQForm";
-import EngineerChat from "./components/EngineerChat";
+
+
 import { Shield, Phone, Mail, MapPin, Award, ArrowUpRight, CheckCircle2 } from "lucide-react";
 
 export default function App() {
@@ -129,8 +129,7 @@ export default function App() {
         {renderActiveSection()}
       </main>
 
-      {/* Floating AI Specialist senior engineer */}
-      <EngineerChat />
+    
 
       {/* Corporate Modern Footer reminiscent of Geometric Balance style */}
       <footer className="bg-slate-950 text-slate-300 border-t border-slate-850 font-sans text-xs pt-12 pb-8">
@@ -193,11 +192,11 @@ export default function App() {
               <ul className="space-y-2 text-slate-400 text-[11px] font-mono">
                 <li className="flex items-start gap-1.5">
                   <MapPin className="h-4 w-4 text-blue-500 shrink-0 mt-0.5" />
-                  <span className="font-sans">7 Unity Drive, Satellite Village, Ogbovires-State</span>
+                    <span className="font-sans">No. 17 Unity Drive, Satellite Village, Oyigbo, Rivers State</span>
                 </li>
                 <li className="flex items-center gap-1.5">
                   <Phone className="h-4 w-4 text-blue-500" />
-                  <span>08064446220, 09023918123</span>
+                  <span>+234 8064446220, +234 9023918123</span>
                 </li>
                 <li className="flex items-center gap-1.5">
                   <Mail className="h-4 w-4 text-blue-500" />

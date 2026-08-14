@@ -100,7 +100,7 @@ export default function Services({ onRequestConsultation }: ServicesProps) {
                         return (
                           <video
                             src={serv.image}
-                            className="w-full h-full object-cover grayscale brightness-90 hover:grayscale-0 transition duration-300"
+                            className="w-full h-full object-cover "
                             controls
                             muted
                             loop
@@ -113,7 +113,7 @@ export default function Services({ onRequestConsultation }: ServicesProps) {
                         <img
                           src={serv.image}
                           alt={serv.title}
-                          className="w-full h-full object-cover grayscale brightness-90 hover:grayscale-0 transition duration-300"
+                          className="w-full h-full object-cover "
                           loading="lazy"
                         />
                       );

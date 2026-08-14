@@ -75,7 +75,7 @@ export default function Navbar({ activeTab, setActiveTab }: NavbarProps) {
               className="flex items-center gap-1 xl:gap-1.5 text-slate-300 hover:text-amber-400 transition ml-0.5 xl:ml-1 text-[11px] xl:text-xs font-mono font-semibold shrink-0 whitespace-nowrap"
             >
               <Phone className="h-3.5 w-3.5 text-amber-500 shrink-0" />
-              <span>08064446220</span>
+              <span>+2348064446220</span>
             </a>
           </div>
 
@@ -111,21 +111,12 @@ export default function Navbar({ activeTab, setActiveTab }: NavbarProps) {
           ))}
           
           <div className="pt-4 border-t border-slate-800 space-y-3">
-            <button
-              onClick={() => {
-                setActiveTab("rfq");
-                setIsOpen(false);
-              }}
-              className="w-full flex justify-center items-center gap-2 bg-amber-500 text-slate-950 py-3 rounded-lg font-bold shadow-md hover:bg-amber-400"
-            >
-              <FileText className="h-4 w-4" />
-              Request a Quote
-            </button>
+            
 
             <div className="flex justify-around pt-3 font-mono text-xs text-slate-400">
               <span className="flex items-center gap-1.5">
                 <Phone className="h-3.5 w-3.5 text-amber-500" />
-                08064446220
+                +234 8064446220
               </span>
               <span>•</span>
               <span>mon-fri: 8am-5pm</span>

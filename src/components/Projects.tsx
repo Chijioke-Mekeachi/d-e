@@ -92,7 +92,7 @@ export default function Projects() {
                     return (
                       <video
                         src={cs.image}
-                        className="w-full h-full object-cover grayscale brightness-90 hover:grayscale-0 transition"
+                        className="w-full h-full object-cover  "
                         controls
                         muted
                         loop
@@ -102,7 +102,7 @@ export default function Projects() {
                     );
                   }
                   return (
-                    <img src={cs.image} alt={cs.clientName} className="w-full h-full object-cover grayscale brightness-90 hover:grayscale-0 transition" />
+                    <img src={cs.image} alt={cs.clientName} className="w-full h-full object-cover " />
                   );
                 })()}
                 <div className="absolute inset-0 bg-slate-900/40"></div>

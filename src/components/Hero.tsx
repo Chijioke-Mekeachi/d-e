@@ -44,14 +44,7 @@ export default function Hero({ onLearnMoreServices, onRequestQuote }: HeroProps)
                   id="hero-cta-quote"
                   className="bg-amber-500 hover:bg-amber-400 text-slate-950 px-8 py-4 font-extrabold uppercase tracking-wider text-xs rounded-sm transition-all shadow-lg shadow-amber-500/20 cursor-pointer flex items-center gap-2"
                 >
-                  Request a Quote
-                  <ArrowRight className="h-4 w-4 stroke-[3]" />
-                </button>
-                <button
-                  onClick={() => window.open("https://wa.me/2348064446220?text=Hello%20D%26E%20Dominion%20Technical%2C%20I%20am%20interested%20in%20a%20Cathodic%20Protection%20consultation.", "_blank")}
-                  id="hero-cta-whatsapp"
-                  className="bg-emerald-600 hover:bg-emerald-550 text-white border border-emerald-500 px-8 py-4 font-extrabold uppercase tracking-wider text-xs rounded-sm transition-all shadow-lg shadow-emerald-600/20 cursor-pointer flex items-center gap-2"
-                >
+                  
                   <MessageSquare className="h-4 w-4 stroke-[2.5]" />
                   WhatsApp Expert
                   <span className="w-2 w-2 h-2 rounded-full bg-emerald-300 animate-ping"></span>
@@ -138,7 +131,7 @@ export default function Hero({ onLearnMoreServices, onRequestQuote }: HeroProps)
                 <div className="mt-6 pt-4 border-t border-slate-700 flex justify-between items-center text-xs">
                   <div className="font-mono text-slate-400">
                     <p className="uppercase text-[9px]">Emergency Line</p>
-                    <p className="font-bold text-white text-sm">09023918123</p>
+                    <p className="font-bold text-white text-sm">+234 9023918123</p>
                   </div>
                   <span className="bg-slate-900 border border-slate-700 px-3 py-1 text-slate-300 font-mono rounded text-[10px]">
                     24/7 Response
@@ -231,7 +224,7 @@ export default function Hero({ onLearnMoreServices, onRequestQuote }: HeroProps)
               </div>
               <div className="space-y-1">
                 <span className="text-[10px] uppercase font-bold text-blue-200 block">CALL TO SPEAK</span>
-                <span className="font-mono text-xl font-bold block">08064446220</span>
+                <span className="font-mono text-xl font-bold block">+234 8064446220</span>
               </div>
             </div>
           </div>
