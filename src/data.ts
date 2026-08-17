@@ -228,7 +228,7 @@ export const SERVICES: Service[] = [
       "Municipal Water Infrastructure Boards",
       "Chemical Refinery Processing Plants"
     ],
-    image: "/public/design.jpg"
+    image: "/design.jpg"
   },
   {
     id: "serv-install-commission",
@@ -344,7 +344,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     image: "/CTO.jpg"
   },
   {
-    name: "Engr. Clatus Ovat",
+    name: "Engr. Cletus Ovat",
     role: "Senior Field Integrity Engineer",
     qualifications: ["Field Engineer", "Handle site operation","Technical Inspection", "Installation","testing","Troubleshooting","supervision and commissioning of project"],
     bio: "Engr. Ovat directs the technical survey operations, specializing in GPS-synchronized Close Interval Surveys (CIS), Direct Current Voltage Gradient (DCVG), and soil resistivity profile modeling using advanced diagnostic software.",

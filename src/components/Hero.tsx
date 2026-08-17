@@ -39,16 +39,27 @@ export default function Hero({ onLearnMoreServices, onRequestQuote }: HeroProps)
               </p>
 
               <div className="flex flex-wrap gap-4 mt-2">
-                <button
-                  onClick={onRequestQuote}
-                  id="hero-cta-quote"
-                  className="bg-amber-500 hover:bg-amber-400 text-slate-950 px-8 py-4 font-extrabold uppercase tracking-wider text-xs rounded-sm transition-all shadow-lg shadow-amber-500/20 cursor-pointer flex items-center gap-2"
-                >
-                  
-                  <MessageSquare className="h-4 w-4 stroke-[2.5]" />
-                  WhatsApp Expert
-                  <span className="w-2 w-2 h-2 rounded-full bg-emerald-300 animate-ping"></span>
-                </button>
+               <button
+  onClick={() => {
+    const phoneNumber = "2348064446220";
+    const message = encodeURIComponent(
+      "Hello D & E Dominion Technical Limited, I would like to speak with a WhatsApp expert about your services."
+    );
+
+    window.open(
+      `https://wa.me/${phoneNumber}?text=${message}`,
+      "_blank"
+    );
+  }}
+  id="hero-cta-whatsapp"
+  className="bg-amber-500 hover:bg-amber-400 text-slate-950 px-8 py-4 font-extrabold uppercase tracking-wider text-xs rounded-sm transition-all shadow-lg shadow-amber-500/20 cursor-pointer flex items-center gap-2"
+>
+  <MessageSquare className="h-4 w-4 stroke-[2.5]" />
+
+  WhatsApp Expert
+
+  <span className="w-2 h-2 rounded-full bg-emerald-300 animate-ping"></span>
+</button>
                 <button
                   onClick={onLearnMoreServices}
                   id="hero-cta-solutions"
