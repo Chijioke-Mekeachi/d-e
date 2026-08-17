@@ -132,7 +132,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {TEAM_MEMBERS.map((member) => (
               <div key={member.name} className="bg-white border border-slate-200 shadow hover:shadow-lg transition flex flex-col h-full rounded-sm">
-                <div className="h-150 bg-slate-200 overflow-hidden relative">
+                <div className="h-100 bg-slate-200 overflow-hidden relative">
                   {/* High Quality Industrial/Leader Placeholder styling using css filters and overlays */}
                   <img
                     src={member.image}

@@ -228,7 +228,7 @@ export const SERVICES: Service[] = [
       "Municipal Water Infrastructure Boards",
       "Chemical Refinery Processing Plants"
     ],
-    image: "/reading.jpeg"
+    image: "/public/design.jpg"
   },
   {
     id: "serv-install-commission",

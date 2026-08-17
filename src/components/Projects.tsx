@@ -75,40 +75,50 @@ export default function Projects() {
               className="bg-white border border-slate-200 shadow hover:shadow-md transition-shadow grid grid-cols-1 lg:grid-cols-12 rounded-sm overflow-hidden"
             >
               
-              {/* Image & Metric Overlay Left Side */}
-              <div className="lg:col-span-4 h-64 lg:h-auto bg-slate-100 relative overflow-hidden">
-                {(() => {
-                  const lowerUrl = (cs.image || "").toLowerCase();
-                  const isVideo = lowerUrl.startsWith("data:video/") ||
-                    lowerUrl.endsWith(".mp4") ||
-                    lowerUrl.endsWith(".webm") ||
-                    lowerUrl.endsWith(".ogg") ||
-                    lowerUrl.endsWith(".mov") ||
-                    lowerUrl.endsWith(".avi") ||
-                    lowerUrl.endsWith(".mkv") ||
-                    lowerUrl.includes("/video/upload/") ||
-                    lowerUrl.includes(".mp4?");
-                  if (isVideo) {
-                    return (
-                      <video
-                        src={cs.image}
-                        className="w-full h-full object-cover  "
-                        controls
-                        muted
-                        loop
-                        autoPlay
-                        playsInline
-                      />
-                    );
-                  }
-                  return (
-                    <img src={cs.image} alt={cs.clientName} className="w-full h-full object-cover " />
-                  );
-                })()}
-                <div className="absolute inset-0 bg-slate-900/40"></div>
-                
-                {/* Metric Overlays */}
-                <div className="absolute top-4 left-4 right-4 flex justify-between gap-2">
+             {/* Image & Metric Overlay Left Side */}
+<div
+  className="lg:col-span-4 w-full h-[300px] sm:h-[360px] lg:h-[420px] xl:h-[460px] bg-slate-100 relative overflow-hidden rounded-lg"
+>
+  {(() => {
+    const lowerUrl = (cs.image || "").toLowerCase();
+
+    const isVideo =
+      lowerUrl.startsWith("data:video/") ||
+      lowerUrl.endsWith(".mp4") ||
+      lowerUrl.endsWith(".webm") ||
+      lowerUrl.endsWith(".ogg") ||
+      lowerUrl.endsWith(".mov") ||
+      lowerUrl.endsWith(".avi") ||
+      lowerUrl.endsWith(".mkv") ||
+      lowerUrl.includes("/video/upload/") ||
+      lowerUrl.includes(".mp4?");
+
+    if (isVideo) {
+      return (
+        <video
+          src={cs.image}
+          className="w-full h-full object-cover object-center brightness-110 contrast-105 saturate-110"
+          controls
+          muted
+          loop
+          autoPlay
+          playsInline
+        />
+      );
+    }
+
+    return (
+      <img
+        src={cs.image}
+        alt={cs.clientName}
+        className="w-full h-full object-cover object-center brightness-110 contrast-105 saturate-110"
+        loading="lazy"
+      />
+    );
+  })()}
+
+ {/* Metric Overlays */}
+<div className="absolute top-4 left-4 right-4 flex justify-between gap-2 z-20">
                   <span className="bg-blue-600 text-white font-mono text-[10px] font-bold uppercase px-2 py-1 rounded">
                     {cs.industry} Sector
                   </span>

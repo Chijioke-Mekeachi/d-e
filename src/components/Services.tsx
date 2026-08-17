@@ -80,49 +80,59 @@ export default function Services({ onRequestConsultation }: ServicesProps) {
                   }`}
                 >
                   
-                  {/* Visual Image Column */}
-                  <div className={`lg:col-span-5 h-64 sm:h-72 bg-slate-100 overflow-hidden border border-slate-200 rounded relative group ${
-                    isAdjustRight ? "lg:order-last" : ""
-                  }`}>
-                    <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-slate-900/0 transition duration-300"></div>
-                    {(() => {
-                      const lowerUrl = (serv.image || "").toLowerCase();
-                      const isVideo = lowerUrl.startsWith("data:video/") ||
-                        lowerUrl.endsWith(".mp4") ||
-                        lowerUrl.endsWith(".webm") ||
-                        lowerUrl.endsWith(".ogg") ||
-                        lowerUrl.endsWith(".mov") ||
-                        lowerUrl.endsWith(".avi") ||
-                        lowerUrl.endsWith(".mkv") ||
-                        lowerUrl.includes("/video/upload/") ||
-                        lowerUrl.includes(".mp4?");
-                      if (isVideo) {
-                        return (
-                          <video
-                            src={serv.image}
-                            className="w-full h-full object-cover "
-                            controls
-                            muted
-                            loop
-                            autoPlay
-                            playsInline
-                          />
-                        );
-                      }
-                      return (
-                        <img
-                          src={serv.image}
-                          alt={serv.title}
-                          className="w-full h-full object-cover "
-                          loading="lazy"
-                        />
-                      );
-                    })()}
-                    <div className="absolute top-4 left-4 bg-slate-900 text-white p-2.5 rounded shadow">
-                      {renderIcon(serv.iconName)}
-                    </div>
-                  </div>
+                {/* Visual Image Column */}
+<div
+  className={`lg:col-span-5 bg-white overflow-hidden border border-slate-200 rounded relative group ${
+    isAdjustRight ? "lg:order-last" : ""
+  }`}
+>
+  {(() => {
+    const lowerUrl = (serv.image || "").toLowerCase();
 
+    const isVideo =
+      lowerUrl.startsWith("data:video/") ||
+      lowerUrl.endsWith(".mp4") ||
+      lowerUrl.endsWith(".webm") ||
+      lowerUrl.endsWith(".ogg") ||
+      lowerUrl.endsWith(".mov") ||
+      lowerUrl.endsWith(".avi") ||
+      lowerUrl.endsWith(".mkv") ||
+      lowerUrl.includes("/video/upload/") ||
+      lowerUrl.includes(".mp4?");
+
+    if (isVideo) {
+      return (
+        <div className="relative w-full bg-black">
+          <video
+            src={serv.image}
+            className="block w-full h-auto max-h-[650px] object-contain"
+            controls
+            muted
+            loop
+            autoPlay
+            playsInline
+          />
+        </div>
+      );
+    }
+
+    return (
+      <div className="relative w-full bg-white">
+        <img
+          src={serv.image}
+          alt={serv.title}
+          className="block w-full h-auto object-contain"
+          loading="lazy"
+        />
+      </div>
+    );
+  })()}
+
+  {/* Service Icon
+  <div className="absolute top-4 left-4 bg-slate-900 text-white p-2.5 rounded shadow z-20">
+    {renderIcon(serv.iconName)}
+  </div> */}
+</div>
                   {/* Text Specifications Column */}
                   <div className="lg:col-span-7 space-y-6">
                     <div>
